@@ -6,13 +6,14 @@ import matplotlib as mpl
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-# plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['font.size'] = 22
 plt.rcParams["figure.autolayout"] = True
 mpl.rcParams['axes.unicode_minus'] = False
 warnings.filterwarnings('ignore')
 
 from Connect_Database.connect_database import ConnectDatabase
+
 
 def industry_distribution_tool(data):
     """
